@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculate the value of JioCoins in INR with the JioCoin Calculator. A simple, responsive, and easy-to-use tool for converting JioCoins to Indian Rupees.">
+  <title>JioCoin Calculator - Convert JioCoins to INR</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JioCoin Calculator</h1>
+    <p>Calculate the value of your JioCoins in INR (Indian Rupees).</p>
+    
+    <div class="calculator">
+      <label for="jiocoins">Enter JioCoins:</label>
+      <input type="number" id="jiocoins" placeholder="Enter JioCoins" min="0">
+      
+      <label for="exchange-rate">Exchange Rate (1 JioCoin = INR):</label>
+      <input type="number" id="exchange-rate" value="10" readonly>
+      
+      <button id="calculate-btn">Calculate</button>
+      
+      <h2 id="result"></h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
